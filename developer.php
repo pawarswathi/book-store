@@ -34,30 +34,34 @@
 					<!-- start content -->
 					<div id="content">
 						<div class="post">
-							<h1 class="title">Welcome to 
-							<?php 
-								if(isset($_SESSION['status']))
-								{
-									echo $_SESSION['unm']; 
-								}
-								else
-								{	
-									echo 'Book Store';
-								}
-							?>
-							</h1>
+							<h1 class="title"></h1>
 							<div class="entry">
-								<br>
-								
-								<br>		
-								
-								<object width="550" height="400">
-								<!--<param name="movie" value="somefilename.swf">-->
-								<embed src="HotHotSoftware3DMenu.swf" width="550" height="400">
-								</embed>
-								</object>
-								<br><br>
-								
+							
+								<table  align="center" width="100%">
+										<tr  bgcolor="#EEE9F3">
+										
+										
+									<td align="center" width="100%"><b>Developer And Management Team</b></td>
+										</tr>
+										
+										<tr><td><br><br></td></tr>
+								<tr>
+									<td >
+												<strong><font color="#433" size="2">Information about developers:</font></strong><br><br>
+														<U><B> Mr. sanjeev   :</B></U><BR><br>
+														<UL>
+														<LI>Mobile No.<font color="purple">  09377888852</font></LI>
+														</UL>
+														<U><B>Kashif</B></U><BR>		<br>		
+														<UL>
+														<LI>Mobile No.<font color="purple">  9015322640</font></LI>
+														</UL>
+												</strong>										
+											<center><strong>Contact US :</strong><font color="purple">+91 1231231234</font></center><br><br>						
+												The Software used in TheBookShop project&nbsp;:<font color="purple">PHP,MYSQL,APACHE,XAMPP.</font> 
+									</td>
+								</tr>
+								</table>
 							</div>
 							
 						</div>

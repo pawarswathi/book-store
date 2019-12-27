@@ -1,11 +1,12 @@
-<?php 
+<?php session_start();
 
-session_start(); 
-
-session_destroy(); 
-
-
-echo "<script>window.open('index.php','_self')</script>";
-
-
+		$_SESSION=array();		//session_destroy();
+						
+		header("location:index.php");
+	
+					
 ?>
+
+	
+	
+	
